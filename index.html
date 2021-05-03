@@ -2,36 +2,46 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project inGa</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <!-- Javascript読み込み START -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./js/main.js" charset="utf-8"></script>
+  <!-- Javascript読み込み END -->
 </head>
 <body>
-  <header>
+  <!--Facebook START-->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v10.0" nonce="J3oj4N08"></script>
+  <!--Facebook END-->
+<!--<body>-->
+    <header>
     <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
+<!-- ハンバーガーメニューの文言 START -->
       <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
+<!--        <a href="#" class="login">ログイン</a> -->
+        <a href="#">駄文</a>
+        <a href="#">企画</a>
+        <a href="#">開発ツール</a>
       </div>
+<!-- ハンバーガーメニューの文言 END -->
     </div>
   </header>
   <div class="top-wrapper">
     <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
+<!-- Bodyのヘッダー文言 START -->
+      <h1>It's all fiction.<br>Making the Fictional Everyday.</h1>
+      <p>inGaは100%フィクションで出来ています。<br>初心者にもやさしい虚構感を・・・<BR>絶対に信用しないでください</p>
       <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
+        <a href="#" class="btn signup" onclick="false_login();">新規登録はこちら</a>
         <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+        <a href="#" class="btn facebook" onclick="false_facebook();"><span class="fa fa-facebook"></span>Facebookで登録</a>
+        <a href="#" class="btn twitter"><span class="fa fa-twitter" onclick="false_twitter();"><span class="fa fa-">/span>Twitterで登録</a>
       </div>
-    </div>
+<!-- Bodyのヘッダー文言 END -->
+</div>
   </div>
   <div class="lesson-wrapper">
     <div class="container">
@@ -80,11 +90,24 @@
       <span class="btn message">さっそく開発する</span>
     </div>
   </div>
+  <!--Facebook START-->
+  <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="100" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
+  <!--Facebook END-->
+
+<!--フッター文言 START-->
   <footer>
+<!--ハンコ画像 START-->
+<div class="header-left">
+<!--- 合わないのでコメントアウト
+    <img class="logo" width = 32 height =32 src="img/mainlogo2.png">
+    </div>
+    <span class="fa fa-bars menu-icon"></span>
+-->
+<!--ハンコ画像 END-->
     <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
+      <p>Copyright(c) © Project inGa. All rights reserved.</p>
     </div>
   </footer>
+<!--フッター文言 END-->
 </body>
 </html>
