@@ -1,113 +1,116 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Project inGa</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./css/main.css">
-  <!-- Javascript読み込み START -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./js/main.js" charset="utf-8"></script>
-  <!-- Javascript読み込み END -->
-</head>
-<body>
-  <!--Facebook START-->
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v10.0" nonce="J3oj4N08"></script>
-  <!--Facebook END-->
-<!--<body>-->
-    <header>
-    <div class="container">
-<!-- ハンバーガーメニューの文言 START -->
-      <div class="header-right">
-<!--        <a href="#" class="login">ログイン</a> -->
-        <a href="#">駄文</a>
-        <a href="#">企画</a>
-        <a href="#">開発ツール</a>
-      </div>
-<!-- ハンバーガーメニューの文言 END -->
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-<!-- Bodyのヘッダー文言 START -->
-      <h1>It's all fiction.<br>Making the Fictional Everyday.</h1>
-      <p>inGaは100%フィクションで出来ています。<br>初心者にもやさしい虚構感を・・・<BR>絶対に信用しないでください</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup" onclick="false_login();">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook" onclick="false_facebook();"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter" onclick="false_twitter();"><span class="fa fa-">/span>Twitterで登録</a>
-      </div>
-<!-- Bodyのヘッダー文言 END -->
-</div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <!--Facebook START-->
-  <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="100" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
-  <!--Facebook END-->
 
-<!--フッター文言 START-->
-  <footer>
-<!--ハンコ画像 START-->
-<div class="header-left">
-<!--- 合わないのでコメントアウト
-    <img class="logo" width = 32 height =32 src="img/mainlogo2.png">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project inGa</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <!-- Javascript読み込み START -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/main.js" charset="utf-8"></script>
+    <!-- Javascript読み込み END -->
+</head>
+
+<body>
+    <!--Facebook START-->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v10.0" nonce="J3oj4N08"></script>
+    <!--Facebook END-->
+    <!-- ハンバーガーメニューの文言 START -->
+    <header>
+        <div class="container">
+            <div class="header-right">
+                <!--        <a href="#" class="login">ログイン</a> -->
+                <a href="#">駄文</a>
+                <a href="#">企画</a>
+                <a href="#">開発ツール</a>
+            </div>
+        </div>
+    </header>
+    <!-- ハンバーガーメニューの文言 END -->
+    <div class="top-wrapper">
+        <div class="container">
+            <!-- Bodyのヘッダー文言 START -->
+            <h1>It's all fiction.<br>Making the Fictional Everyday.</h1>
+            <p>inGaは100%フィクションで出来ています。<br>初心者にもやさしい虚構感を・・・
+                <BR>絶対に信用しないでください</p>
+            <div class="btn-wrapper">
+                <a href="#" class="btn signup" onclick="false_login();">新規登録はこちら</a>
+                <p>or</p>
+                <a href="#" class="btn facebook" onclick="false_facebook();"><span class="fa fa-facebook"></span>Facebookで登録</a>
+                <a href="#" class="btn twitter"><span class="fa fa-twitter" onclick="false_twitter();"><span class="fa fa-">/span>Twitterで登録</a>
+            </div>
+            <!-- Bodyのヘッダー文言 END -->
+        </div>
     </div>
-    <span class="fa fa-bars menu-icon"></span>
--->
-<!--ハンコ画像 END-->
-    <div class="container">
-      <p>Copyright(c) © Project inGa. All rights reserved.</p>
+    <div class="lesson-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h2>Learn Where to Get Started!</h2>
+            </div>
+            <div class="lessons">
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/html.png">
+                        <p>HTML & CSS</p>
+                    </div>
+                    <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+                </div>
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+                        <p>jQuery</p>
+                    </div>
+                    <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
+                </div>
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/ruby.png">
+                        <p>Ruby</p>
+                    </div>
+                    <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
+                </div>
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/php.png">
+                        <p>PHP</p>
+                    </div>
+                    <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
     </div>
-  </footer>
-<!--フッター文言 END-->
+    <div class="message-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
+                <h3>Let's learn to code, learn to be creative!</h3>
+            </div>
+            <span class="btn message">さっそく開発する</span>
+        </div>
+    </div>
+    <!--Facebook START-->
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="100" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
+    <!--Facebook END-->
+
+    <!--フッター文言 START-->
+    <footer>
+        <!--ハンコ画像 START-->
+        <div class="header-left">
+            <!--- 合わないのでコメントアウト
+              <img class="logo" width = 32 height =32 src="img/mainlogo2.png">
+              </div>
+              <span class="fa fa-bars menu-icon"></span>
+              -->
+            <!--ハンコ画像 END-->
+            <div class="container">
+                <p>Copyright(c) © Project inGa. All rights reserved.</p>
+            </div>
+    </footer>
+    <!--フッター文言 END-->
 </body>
+
 </html>
